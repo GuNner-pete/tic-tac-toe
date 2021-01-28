@@ -38,12 +38,6 @@ describe Board do
       expect(game.check_input(9)).to eq(true)
     end
   end
-
-  describe '#check_board(X)' do
-    it 'should retuurn false if the wanted cell is already filled with X or O' do
-      expect(game.check_board()).to eq(false)
-    end
-  end
 end
 
 describe Player do
